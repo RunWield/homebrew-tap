@@ -6,11 +6,11 @@ class Wld < Formula
   license :cannot_represent
 
   if Hardware::CPU.arm?
-    url "https://github.com/gandazgul/runwield/releases/download/v0.11.8/wld-v0.11.8-darwin-arm64.tar.gz"
-    sha256 "9f980dfe471b0d1b0af472fe4a57e09b51b44e839cb91113eba4fc419e033687"
+    url "https://github.com/gandazgul/runwield/releases/download/v0.11.9/wld-v0.11.9-darwin-arm64.tar.gz"
+    sha256 "a98ff6e9f4b76c4c95896fa4ada683a58b7557f39baae96ffe47157fe486c3f8"
   else
-    url "https://github.com/gandazgul/runwield/releases/download/v0.11.8/wld-v0.11.8-darwin-x64.tar.gz"
-    sha256 "aa35b30731e787ed00e49edf1c71c11da91a3d4d5f380f686dc773a3f6f9651c"
+    url "https://github.com/gandazgul/runwield/releases/download/v0.11.9/wld-v0.11.9-darwin-x64.tar.gz"
+    sha256 "00e84bba12c6e7694594821324c7e765e9bd92850cf83fc3e43bc28ec2494f5f"
   end
 
   depends_on "1broseidon/tap/cymbal"
