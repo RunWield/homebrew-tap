@@ -2,15 +2,15 @@ require "json"
 
 class Wld < Formula
   desc "Plan-first AI coding harness"
-  homepage "https://github.com/gandazgul/runwield"
-  license :cannot_represent
+  homepage "https://github.com/RunWield/runwield"
+  license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/gandazgul/runwield/releases/download/v0.12.4/wld-v0.12.4-darwin-arm64.tar.gz"
-    sha256 "3c22ea8cb6353c54c46b78199743d6e10bad3ee70922f41c786080210889b0ae"
+    url "https://github.com/RunWield/runwield/releases/download/v0.14.0/wld-v0.14.0-darwin-arm64.tar.gz"
+    sha256 "02904d0380515fff623ea03fa356d3f114acf2b51cab078aabfcbc617dd4b51e"
   else
-    url "https://github.com/gandazgul/runwield/releases/download/v0.12.4/wld-v0.12.4-darwin-x64.tar.gz"
-    sha256 "64ab3240353ce5019b36745a1f79184d4ce44fb40e06376a6cfcb77433e69b3a"
+    url "https://github.com/RunWield/runwield/releases/download/v0.14.0/wld-v0.14.0-darwin-x64.tar.gz"
+    sha256 "f714f2bc8aa4c6d547613eba70a9eced33026c67b19f3e829da34924d98aad38"
   end
 
   depends_on "1broseidon/tap/cymbal"

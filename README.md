@@ -9,9 +9,9 @@ brew install gandazgul/tap/wld
 brew install gandazgul/tap/mnemoteca
 ```
 
-RunWield license: https://github.com/gandazgul/runwield/blob/main/LICENSE
+RunWield license: https://github.com/RunWield/runwield/blob/main/LICENSE
 
-The RunWield formula uses Homebrew's `:cannot_represent` metadata because the project license is not an SPDX license.
+RunWield v0.14.0 and later use MIT metadata. Recovery of earlier releases preserves their original license metadata.
 
 Regenerate from this repository with:
 
