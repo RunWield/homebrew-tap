@@ -6,11 +6,11 @@ class Wld < Formula
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/RunWield/runwield/releases/download/v0.14.0/wld-v0.14.0-darwin-arm64.tar.gz"
-    sha256 "02904d0380515fff623ea03fa356d3f114acf2b51cab078aabfcbc617dd4b51e"
+    url "https://github.com/RunWield/runwield/releases/download/v0.14.2/wld-v0.14.2-darwin-arm64.tar.gz"
+    sha256 "e99b0d1c8e1dc5e856d51c3c7cb4d5fedc20c214e41dfffd6d0111efd2b35e16"
   else
-    url "https://github.com/RunWield/runwield/releases/download/v0.14.0/wld-v0.14.0-darwin-x64.tar.gz"
-    sha256 "f714f2bc8aa4c6d547613eba70a9eced33026c67b19f3e829da34924d98aad38"
+    url "https://github.com/RunWield/runwield/releases/download/v0.14.2/wld-v0.14.2-darwin-x64.tar.gz"
+    sha256 "5b57d2d8d2422cf2fabaf54681254f18588ce2fbd35738b0bf48922945d36221"
   end
 
   depends_on "1broseidon/tap/cymbal"
