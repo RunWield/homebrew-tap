@@ -4,11 +4,11 @@ class Mnemoteca < Formula
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/gandazgul/mnemoteca/releases/download/v0.3.3/mnemoteca_0.3.3_darwin_arm64.tar.gz"
-    sha256 "1096e08c4269962a215fcb534ef54f6b7602d078580adf558a62a59ed49dcb35"
+    url "https://github.com/RunWield/mnemoteca/releases/download/v0.3.4/mnemoteca_0.3.4_darwin_arm64.tar.gz"
+    sha256 "b8e4a21c40ff3288b0792034e4cb847d7237c8c985c1c99989a8aac044479174"
   else
-    url "https://github.com/gandazgul/mnemoteca/releases/download/v0.3.3/mnemoteca_0.3.3_darwin_amd64.tar.gz"
-    sha256 "db0d5d449c3011dab4566201044951d4270d6b9f3cba94db6bcff49cf27d643e"
+    url "https://github.com/RunWield/mnemoteca/releases/download/v0.3.4/mnemoteca_0.3.4_darwin_amd64.tar.gz"
+    sha256 "550d1c9a9f5acd8921d9658b0ed14ad0529ae3d79dc329b210e0c6108490cacb"
   end
 
   depends_on :macos
